@@ -40,8 +40,7 @@ conditional_gen/
 - **Option B (다른 경로에서 실행)**: 원하는 위치에 clone한 뒤, 노트북 상단의 `ROOT_PATH`(`testing.ipynb`) / `root`(`train.ipynb`) 값을 실제 clone 경로로 수정
 
 > `lora_checkpoint/`, `data/actor_raw_data/` 등 이미지·가중치 파일은 Git LFS로 관리됩니다. clone 후 `git lfs pull`을 실행해야 실제 파일이 받아집니다.
->
-> 참고: `lora_checkpoint`에 `kimwoobin_llm`과 `KimWooBin_llm`처럼 대소문자만 다른 폴더가 함께 존재합니다. macOS/Windows처럼 대소문자를 구분하지 않는 파일시스템에서는 두 폴더가 충돌해 하나만 정상적으로 받아질 수 있으니, 필요하면 둘 중 하나로 폴더명을 통일하는 것을 권장합니다.
+
 
 ## 1. codes/
 
